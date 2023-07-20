@@ -1,0 +1,13 @@
+.fehler {
+	position: relative;
+	&__menu {
+		position: relative;
+		z-index: 5;
+	}
+	&_page {
+		position: relative;
+		margin-top: -180px;
+		z-index: -3;
+
+	}
+}

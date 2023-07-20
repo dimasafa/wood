@@ -1,0 +1,223 @@
+.cart {
+	display: block;
+	height: auto;
+	width: 80%;
+	margin: 0 auto;
+	&_title {
+		color: #F5F5F5;
+		font-family: 'Aclonica';
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 132.9%;
+		text-transform: uppercase;
+	}
+	&_one {
+		display: flex;
+		width: 100%;
+		height: auto;
+		justify-content: space-between;
+		margin-top: 30px;
+		&_type, &_gross  {
+			width: 300px;
+			height: 40px;
+			border-radius: 42px;
+			border: 4px solid #728BAD;
+			font-family: 'Aclonica';
+			font-size: 20px;
+			padding-left: 20px;
+		}
+		&_sum {
+			display: flex;
+			height: 40px;
+			width: 150px;
+			background-color: #F5F5F5;
+			border-radius: 42px;
+			border: 4px solid #728BAD;
+
+			color: #1E0C06;
+			font-family: 'Aclonica';
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 132.9%;
+			text-transform: uppercase;
+			align-items: center;
+			justify-content: center;
+		}
+		&_btn {
+			display: block;
+			height: 50px;
+			width: 150px;
+			border-radius: 42px;
+			background: #728BAD;
+			cursor: pointer;
+
+			color: #F5F5F5;
+			font-family: 'Inter';
+			font-size: 15px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+	}
+	&_two {
+		display: block;
+		width: 50%;
+		min-height: 250px;
+		position: relative;
+		max-height: 350px;
+		overflow: auto;
+		background-color: #d1d1d1;
+		margin-left: auto;
+		margin-top: 80px;
+		border-radius: 42px 0px 0px 42px;
+		box-shadow: 0px -8px 52px 0px rgba(238, 238, 238,
+			0.17);
+		&_img {
+			display: block;
+			width: 50px;
+			height: 50px;
+			margin-left: 15px;
+			img {
+				width: 50px;
+				height: auto;
+			}
+		}
+		&_title {
+			color: #1E0C06;
+			font-family: 'Aclonica';;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			margin-top: -30px;
+		}
+		&_OrderBlock {
+			display: block;
+			width: 70%;
+			height: fit-content;
+			margin-left: auto;
+			margin-top: 20px;
+			&_order {
+				display: flex;
+				justify-content: space-between;
+				align-items:center;
+				&_type {
+					width: 20%;
+					display: flex;
+					justify-content: start;
+				}
+				&_grosse {
+					width: 40%;
+					display: flex;
+					justify-content: center;
+				}
+				&_price {
+					width: 20%;
+					display: flex;
+					justify-content: center;
+				}
+				&_type, &_grosse, &_price {
+					color: #1E0C06;
+					font-family: 'Aclonica';;
+					font-size: 15px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+				}
+				&_delete {
+					margin-right: 10px;
+					img {
+						height: 15px;
+						width: auto;
+						cursor: pointer;
+					}
+				}
+			}
+			&_delivery {
+				display: flex;
+				width: auto;
+				height: 22px;
+				justify-content: end;
+				align-items: center;
+				margin-top: 30px;
+
+
+				color: #1E0C06;
+				font-family: 'Aclonica';;
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				&_items {
+					margin-left: 30px;
+				}
+				&_sum {
+					margin-left: 50px;
+					margin-right: 10px;
+				}
+			}
+			&_summe {
+				position: absolute;
+				left: 20px;
+				top: 80px;
+				color: #1E0C06;
+				font-family: 'Aclonica';;
+				font-size: 25px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				&_zahl {
+					font-size: 18px;
+					margin-top: 10px;
+				}
+			}
+
+		}
+	}
+	&_three {
+		display: flex;
+		justify-content: end;
+		position: absolute;
+		bottom: 100px;
+		right: 150px;
+
+
+		&_btnClean {
+			button {
+				display: block;
+				height: 50px;
+				width: 120px;
+				border-radius: 42px;
+				background: #7a7a7a;
+				cursor: pointer;
+			
+				color: #F5F5F5;
+				font-family: 'Inter';
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+			}
+		}
+		&_btnOrder {
+			margin-left: 20px;
+			button {
+				display: block;
+				height: 50px;
+				width: 150px;
+				border-radius: 42px;
+				background: #728BAD;
+				cursor: pointer;
+			
+				color: #F5F5F5;
+				font-family: 'Inter';
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+			}
+		}
+	}
+}

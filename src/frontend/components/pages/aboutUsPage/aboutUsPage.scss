@@ -1,0 +1,15 @@
+.aboutUsPage {
+	background-image: url('../../../resources/AboutUsPage/Component\ 2\ \(1\).png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	&_about {
+		margin-top: 105px;
+	}
+	&_work {
+		margin-top: 207px;
+	}
+	&_question {
+		margin-top: 1500px;
+	}
+}

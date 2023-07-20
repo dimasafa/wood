@@ -1,0 +1,50 @@
+.priceList{
+	position: relative;
+	display: block;
+	height: 1080px;
+	width: 1306px;
+	left: 50%;
+	transform: translateX(-50%);
+	&_title {
+		text-align: left;
+		margin-left: 191px;
+		color: #F5F5F5;
+		font-family: 'Aclonica';
+		font-size: 90px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 132.9%;
+		text-transform: uppercase;
+	}
+	&_window {
+		display: block;
+		margin-top: 116px;
+		width: 1114px;
+		height: 700px;
+		margin-left: 100px;
+		border-radius: 42px;
+		img {
+			width: auto;
+		}
+	}
+	&_btn {
+		img {
+			cursor: pointer;
+			&:hover{
+				transition: all 0.5s;
+				transform: scale(1.1);
+			}
+		}
+		&_left {
+			position: absolute;
+			left: 20px;
+			top: 585px;
+		}
+		&_right {
+			position: absolute;
+			right: 20px;
+			top: 585px;
+		}
+
+	}
+}

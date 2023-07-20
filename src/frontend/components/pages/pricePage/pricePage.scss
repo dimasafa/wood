@@ -1,0 +1,12 @@
+.pricePage {
+	background-image: url('../../../resources/PricePage/Component\ 2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	&_price {
+		margin-top: 116px;
+	}
+	&_question {
+		margin-top: 80px;
+	}
+}

@@ -1,0 +1,15 @@
+.galleryPage {
+	background-image: url('../../../resources/GalleryPage/Component\ 2\ \(1\).png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	&_work {
+		margin-top: 102px;
+	}
+	&_wood {
+		margin-top: 1385px;
+	}
+	&_question {
+		margin-top: 2485px;
+	}
+}

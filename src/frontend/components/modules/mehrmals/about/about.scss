@@ -1,0 +1,58 @@
+.about {
+    display: flex;
+    height: 775px;
+    width: 1325px;
+    background: #1E0C06;
+    border-radius: 0px 42px 42px 0px;
+    box-shadow: 0px -8px 52px 0px rgba(238, 238, 238, 0.17);
+    &_text {
+        margin-top: 44px;
+        width: 526px;
+        margin-left: 253px;
+        &_title {
+            font-family: 'Aclonica';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 90px;
+            line-height: 132.9%;
+            text-transform: uppercase;
+        
+            color: #F5F5F5;
+        }
+        &_descr {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 139.4%;
+            margin-top: 67px;
+            text-align: left;
+            width: 516px;
+        
+            color: #F5F5F5;
+        }
+    }
+    &_fotoBox {
+        margin-left: 62px;
+        position: relative;
+        &_foto1 {
+            position: absolute;
+            top: 167px;
+            border: 10px solid #000;
+            border-radius: 42px;
+            z-index: 2;
+        }
+        &_foto2 {
+            position: absolute;
+            top:61px;
+            left: 219px;
+            z-index: 0;
+        }
+        &_foto3 {
+            position: absolute;
+            top: 539px;
+            left: 187px;
+
+        }
+    }
+}

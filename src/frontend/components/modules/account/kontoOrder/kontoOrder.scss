@@ -1,0 +1,75 @@
+.order {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+
+	&_title {
+		color: #F5F5F5;
+		font-family: 'Aclonica';
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 132.9%;
+		text-transform: uppercase;
+	}
+	&_overflow {
+		height: 600px;
+		overflow: auto;
+	}
+	&_db {
+		margin-top: 30px;
+
+		&_box {
+			display: flex;
+			width: 100%;
+			min-height: 30px;
+			background-color: rgb(59, 59, 59);
+			border-radius: 15px;
+			&_time {
+				width: 20%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #F5F5F5;
+				font-family: 'Aclonica';
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 132.9%;
+				text-transform: uppercase;
+			}
+			&_order {
+				display: block;
+				width: 42%;
+				margin-left: 40px;
+				&_line {
+					display: flex;
+					height: 30px;
+					justify-content: space-between;
+					align-items: center;
+					color: #F5F5F5;
+					font-family: 'Aclonica';
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 132.9%;
+					text-transform: uppercase;
+				}
+			}
+			&_sum, &_lieferung, &_bestellung {
+				width: 10%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #F5F5F5;
+				font-family: 'Aclonica';
+				font-size: 15px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 132.9%;
+				text-transform: uppercase;
+			}
+
+		}
+	}
+}

@@ -1,0 +1,44 @@
+.overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Затемненный цвет заднего фона */
+	z-index: 999;
+	/* Устанавливаем высокий z-index, чтобы окно было поверх всего остального контента */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.modal {
+	display: block;
+	height: 200px;
+	width: 700px;
+	background-color: #fff;
+	position: relative;
+	border-radius: 20px;
+	&_close {
+		position: absolute;
+		top: 0px;
+		right: 15px;
+		font-size: 50px;
+	}
+	&_text {
+		display: block;
+		margin: 0 auto;
+		margin-top: 80px;
+		width: 80%;
+		
+		color: #000;
+		font-family: 'Aclonica';
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 132.9%;
+		text-transform: uppercase;
+	}
+}

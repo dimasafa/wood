@@ -1,0 +1,89 @@
+.konto {
+	display: block;
+	height: 100vh;
+	width: 100vw;
+	background: url('../../../../resources/404/bg.png') center center/cover no-repeat;
+	&_gruss {
+		text-align: left;
+		padding-top: 20px;
+		margin-left: 30px;
+		font-family: 'Aclonica';
+		color: #F5F5F5;
+	}
+	&_title {
+		color: #F5F5F5;
+		font-family: 'Aclonica';
+		font-size: 90px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 132.9%;
+		text-transform: uppercase;
+	}
+	&_kontent {
+		display: flex;
+		justify-content: space-between;
+		&_menu {
+			display: block;
+			width: 20vw;
+			height: 70vh;
+			background-color: #1E0C06;
+			border-radius: 0px 79px 79px 0px;
+			box-shadow: 0px -8px 52px 0px rgba(238, 238, 238, 0.17);
+			color: #F5F5F5;
+			padding-top: 80px;
+	
+			li {
+				list-style-type: none;
+				text-align: left;
+				margin-left: 30px;
+				margin-top: 30px;
+	
+				a {
+					text-decoration: none;
+					color: #F5F5F5;
+					font-family: 'Aclonica';
+					font-size: 30px;
+					&:hover {
+						color: orange;
+						transition: all 0.5s;
+					}
+				}
+			}
+		}
+		&_text {
+			display: block;
+			width: 70vw;
+			height: 70vh;
+			margin-left: auto;
+			background-color: #1E0C06;
+			border-radius: 79px 0px 0px 79px;
+			box-shadow: 0px -8px 52px 0px rgba(238, 238, 238, 0.17);
+			color: #F5F5F5;
+			padding-top: 80px;
+		}
+	}
+	&_logout {
+		display: block;
+		position: absolute;
+		width: 150px;
+		height: 40px;
+		background-color: #728BAD;
+		border-radius: 20px;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		top: 20px;
+		right: 20px;
+
+		text-decoration: none;
+		color: #F5F5F5;
+		font-family: 'Aclonica';
+		font-size: 20px;
+		&:hover {
+				transition: all 0.3s;
+				transform: scale(1.03);
+		}
+	}
+
+}

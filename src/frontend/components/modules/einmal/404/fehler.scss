@@ -1,0 +1,59 @@
+.fehler {
+    display: block;
+    width: 1440px;
+    height: 100vh;
+    background: url('../../../../resources/404/bg.png') no-repeat;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    &_zahl {
+        display: flex;
+        width: 1096px;
+        height: 350px;
+        justify-content: space-between;
+        margin-left: 165px;
+        padding-top: 300px;
+        &_null {
+            height: 570px;
+            margin-top: -140px;
+        }
+    }
+    &_text1 {
+        margin-top: 50px;
+        font-family: 'Aclonica';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 90px;
+        line-height: 107.9%;
+    
+        color: #F5F5F5;
+    }
+    &_text2 {
+        margin-top: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    
+        color: #FFDBBB;
+    }
+    button {
+        margin-top: 53px;
+        width: 444px;
+        height: 58px;
+    
+        background: #728BAD;
+        border-radius: 42px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    
+        color: #F5F5F5;
+        cursor: pointer;
+    }
+}

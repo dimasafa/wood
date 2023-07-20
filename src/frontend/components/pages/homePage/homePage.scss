@@ -1,0 +1,22 @@
+.homePage {
+	background-image: url('../../../resources/HomePage/Component\ 2.png'), url('../../../resources/HomePage/wood.svg');
+	background-position: bottom right, top left;
+	background-repeat: no-repeat, no-repeat;
+	background-size: cover, auto;
+	position: relative;
+	&_solid {
+		margin-top: 40px;
+	}
+	&_wood {
+		margin-top: 1212px;
+	}
+	&_work {
+		margin-top: 2385px;
+	}
+	&_about {
+		margin-top: 3710px;
+	}
+	&_question {
+		margin-top: 192px;
+	}
+}
